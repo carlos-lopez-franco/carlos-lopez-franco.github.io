@@ -1,0 +1,52 @@
+---
+# Nombre completo para mostrar en la web
+title: Prof. Carlos Lopez-Franco
+
+# Alias interno del sistema (no cambiar)
+username: admin
+
+# Título / Cargo oficial
+role: Research profesor
+
+# Institución o laboratorio
+organizations:
+  - name: Nombre de la Universidad o Instituto
+    url: https://www.universidad.edu
+
+# Resumen biográfico breve (se muestra en la portada)
+bio: Investigador en Computer Vision, Aprendizaje Profundo y Robótica.
+
+# Áreas principales de investigación
+interests:
+  - Computer Vision
+  - Machine Learning
+  - Robótica y Embodied AI
+  - Redes Neuronales
+
+# Formación académica
+education:
+  courses:
+    - course: Doctorado en Ciencias de la Computación
+      institution: Universidad X
+      year: 2021
+    - course: Licenciatura / Ingeniería
+      institution: Universidad Y
+      year: 2016
+
+# Redes sociales y perfiles científicos
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:correo@universidad.edu'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=ID_Google_Scholar
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/tu-usuario
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0000-0000-0000
+---
+
+Escribe aquí la biografía detallada, líneas de investigación o un mensaje de bienvenida a los estudiantes y colaboradores.
