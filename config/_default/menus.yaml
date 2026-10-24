@@ -25,3 +25,6 @@ main:
   - name: Courses
     url: courses/
     weight: 40
+  - name: Blog # Nombre que se verá en la barra superior
+    url: 'posts/' # Al poner 'post/' en vez de '#posts', abre una página completa
+    weight: 40

@@ -12,10 +12,29 @@ baseURL: 'https://carlos-lopez-franco.github.io/'
 ## LANGUAGE
 ############################
 
+# defaultContentLanguage: en
+# hasCJKLanguage: false
+# defaultContentLanguageInSubdir: false
+# removePathAccents: true
+
+############################
+## LANGUAGE
+############################
+
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+languages:
+  en:
+    languageCode: en-us
+    languageName: English
+    weight: 1
+  es:
+    languageCode: es-ES
+    languageName: Español
+    weight: 2
 
 ############################
 ## PAGE OPTIONS
@@ -73,3 +92,4 @@ security:
 
 sitemap:
   _merge: deep
+
