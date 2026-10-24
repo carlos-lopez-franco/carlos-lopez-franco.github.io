@@ -29,8 +29,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install TailwindCSS CLI
-        run: npm install -g tailwindcss @tailwindcss/cli
+      - name: Install TailwindCSS CLI & Plugins
+        run: |
+          npm install -g tailwindcss @tailwindcss/cli @tailwindcss/typography
+          npm install @tailwindcss/typography
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
