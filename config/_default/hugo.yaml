@@ -28,12 +28,12 @@ removePathAccents: true
 
 languages:
   en:
-    languageCode: en-us
-    languageName: English
+    locale: en-us
+    label: English
     weight: 1
   es:
-    languageCode: es-ES
-    languageName: Español
+    locale: es-ES
+    label: Español
     weight: 2
 
 ############################
